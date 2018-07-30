@@ -1,0 +1,21 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "仿http-server",
+  "main": "index.js",
+  "bin": {
+    "my-http-server": "bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuet",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "mime": "^2.3.1",
+    "yargs": "^11.0.0"
+  }
+}
